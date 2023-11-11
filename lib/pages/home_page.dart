@@ -23,13 +23,13 @@ class _HomePageState extends State<HomePage> {
                 child: Column(children: [
                   TextField(
                     decoration: InputDecoration(
-                      hintText: "Ingrese el Nombre de la institución",
+                      hintText: ">  Ingrese el Nombre de la institución",
                       //label:  Text("Nombre"),
                     ),
                   ),
                   TextField(
                       decoration: InputDecoration(
-                    hintText: "Ingrese la dirección de la institución",
+                    hintText: ">  Ingrese la dirección de la institución",
                     //label:  Text("Nombre"),
                   ))
                 ]))));
